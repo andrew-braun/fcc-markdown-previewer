@@ -1,0 +1,31 @@
+{
+	"name": "markdown-previewer",
+	"version": "1.0.0",
+	"description": "",
+	"main": "script.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "babel script.js -d lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/andrew-braun/fcc-markdown-previewer.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/andrew-braun/fcc-markdown-previewer/issues"
+	},
+	"homepage": "https://github.com/andrew-braun/fcc-markdown-previewer#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.12.10",
+		"@babel/core": "^7.12.10",
+		"@babel/preset-env": "^7.12.11",
+		"@babel/preset-react": "^7.12.10"
+	},
+	"dependencies": {
+		"@babel/plugin-transform-arrow-functions": "^7.12.1",
+		"@babel/plugin-transform-template-literals": "^7.12.1"
+	}
+}
